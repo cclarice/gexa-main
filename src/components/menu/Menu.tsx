@@ -30,10 +30,9 @@ const StyledMenu = styled.div<{ [key in 'background' | 'border']?: string }>`
 
 const StyledTabs = styled.div<{  }>`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 100%;
   width: 100%;
-  padding: 0 10px;
   position: relative;
 `
 
