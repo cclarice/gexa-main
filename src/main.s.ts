@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
 export const StyleProvider = createGlobalStyle`
 	* {
@@ -63,3 +63,12 @@ export const StyleProvider = createGlobalStyle`
     font-style: normal;
   }
 `
+
+export const theme = {
+  colors: {
+    ascent: '#2F80ED',
+    background: '#EFEFEF',
+    border: '#0000004C',
+    gray: '#636366'
+  }
+}

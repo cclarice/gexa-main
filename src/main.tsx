@@ -1,11 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {StyleProvider} from '@/main.s'
+import { StyleProvider, theme } from '@/main.s'
+import App from '@/App'
+import { ThemeProvider } from 'styled-components'
 
 ReactDOM.render(
 	<React.StrictMode>
 		<StyleProvider/>
-		Gexa Web Application
+		<ThemeProvider theme={ theme }>
+			<App>
+				Gexa Web Application
+			</App>
+		</ThemeProvider>
 	</React.StrictMode>,
 	document.getElementById('root')
 )
